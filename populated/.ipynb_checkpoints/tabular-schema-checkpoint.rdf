@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<dcat:Dataset rdf:about="_:dataset-genre-attributes">
+    <dct:title>genre-attributes</dct:title>
+    <dcat:keyword>everynoise</dcat:keyword>
+    <dcat:keyword>spotify</dcat:keyword>
+    <dcat:keyword>music</dcat:keyword>
+    <dcat:keyword>genres</dcat:keyword>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dcat:distribution>
+        <dcat:Distribution rdf:about="_:dataset-genre-attributes/distribution">
+            <dct:title>genre-attributes</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">genre_attrs.csv</dcat:accessURL>
+        </dcat:Distribution>
+    </dcat:distribution>
+</dcat:Dataset>
+</rdf:RDF>

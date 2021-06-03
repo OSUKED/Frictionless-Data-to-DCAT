@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<dcat:Dataset rdf:about="_:dataset-conventional_power_plants_DE.csv">
+    <dct:title>opsd_conventional_power_plants_DE</dct:title>
+    <dcat:keyword>conventional power plants</dcat:keyword>
+    <dcat:keyword>Open Power System Data</dcat:keyword>
+    <dcat:keyword>Germany</dcat:keyword>
+    <dcat:keyword>Europe</dcat:keyword>
+    <dcat:distribution>
+        <dcat:Distribution rdf:about="_:distribution-conventional_power_plants_DE.csv">
+            <dct:title>opsd_conventional_power_plants_DE</dct:title>
+            <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">conventional_power_plants_DE.csv</dcat:accessURL>
+        </dcat:Distribution>
+    </dcat:distribution>
+</dcat:Dataset>
+<dcat:Dataset rdf:about="_:dataset-conventional_power_plants_DE.xlsx">
+    <dct:title>opsd_conventional_power_plants_DE</dct:title>
+    <dcat:keyword>conventional power plants</dcat:keyword>
+    <dcat:keyword>Open Power System Data</dcat:keyword>
+    <dcat:keyword>Germany</dcat:keyword>
+    <dcat:keyword>Europe</dcat:keyword>
+    <dcat:distribution>
+        <dcat:Distribution rdf:about="_:distribution-conventional_power_plants_DE.xlsx">
+            <dct:title>opsd_conventional_power_plants_DE</dct:title>
+            <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">conventional_power_plants_DE.xlsx</dcat:accessURL>
+        </dcat:Distribution>
+    </dcat:distribution>
+</dcat:Dataset>
+<dcat:Dataset rdf:about="_:dataset-conventional_power_plants_EU.csv">
+    <dct:title>opsd_conventional_power_plants_EU</dct:title>
+    <dcat:keyword>conventional power plants</dcat:keyword>
+    <dcat:keyword>Open Power System Data</dcat:keyword>
+    <dcat:keyword>Germany</dcat:keyword>
+    <dcat:keyword>Europe</dcat:keyword>
+    <dcat:distribution>
+        <dcat:Distribution rdf:about="_:distribution-conventional_power_plants_EU.csv">
+            <dct:title>opsd_conventional_power_plants_EU</dct:title>
+            <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">conventional_power_plants_EU.csv</dcat:accessURL>
+        </dcat:Distribution>
+    </dcat:distribution>
+</dcat:Dataset>
+<dcat:Dataset rdf:about="_:dataset-conventional_power_plants_EU.xlsx">
+    <dct:title>opsd_conventional_power_plants_EU</dct:title>
+    <dcat:keyword>conventional power plants</dcat:keyword>
+    <dcat:keyword>Open Power System Data</dcat:keyword>
+    <dcat:keyword>Germany</dcat:keyword>
+    <dcat:keyword>Europe</dcat:keyword>
+    <dcat:distribution>
+        <dcat:Distribution rdf:about="_:distribution-conventional_power_plants_EU.xlsx">
+            <dct:title>opsd_conventional_power_plants_EU</dct:title>
+            <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">conventional_power_plants_EU.xlsx</dcat:accessURL>
+        </dcat:Distribution>
+    </dcat:distribution>
+</dcat:Dataset>
+</rdf:RDF>
