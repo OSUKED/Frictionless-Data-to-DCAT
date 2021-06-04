@@ -7,619 +7,589 @@
    xmlns:ns5="http://purl.org/dc/elements/1.1/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:nodeID="dataset-2--column-5">
+  <rdf:Description rdf:nodeID="source-4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <ns1:downloadURL rdf:resource="http://www.elia.be/en/grid-data/power-generation/generating-facilities"/>
+    <ns1:title>ELIA Generation facilities (BE)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-14">
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:name>country</ns1:name>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns3:table rdf:nodeID="distribution-2"/>
-    <ns1:title>Two-letter ISO code</ns1:title>
+    <ns1:name>chp</ns1:name>
+    <ns1:title>Status of being able to supply heat</ns1:title>
   </rdf:Description>
   <rdf:Description rdf:nodeID="catalog">
-    <ns4:hadPrimarySource rdf:nodeID="source-0"/>
-    <ns5:contributor rdf:nodeID="contributor-0"/>
-    <ns1:dataset rdf:nodeID="dataset-3"/>
-    <ns4:hadPrimarySource rdf:nodeID="source-9"/>
-    <ns1:dataset rdf:nodeID="dataset-0"/>
-    <ns1:dataset rdf:nodeID="dataset-1"/>
-    <ns5:contributor rdf:nodeID="contributor-1"/>
-    <ns1:landingPage>https://github.com/Open-Power-System-Data/conventional_power_plants/blob/2020-10-01/main.ipynb</ns1:landingPage>
-    <ns4:hadPrimarySource rdf:nodeID="source-12"/>
     <ns4:hadPrimarySource rdf:nodeID="source-5"/>
-    <ns1:dataset rdf:nodeID="dataset-2"/>
-    <ns1:modified>Updated data to new powerplant lists, bugfixes</ns1:modified>
-    <ns4:hadPrimarySource rdf:nodeID="source-19"/>
-    <ns4:hadPrimarySource rdf:nodeID="source-8"/>
-    <ns1:title>Conventional power plants</ns1:title>
-    <ns4:hadPrimarySource rdf:nodeID="source-13"/>
-    <ns4:qualifiedAttribution>Attribution should be given as follows: Open Power System Data. 2020. Data Package Conventional power plants. Version 2020-10-01. https://doi.org/10.25832/conventional_power_plants/2020-10-01. (Primary data from various sources, for a complete list see URL).</ns4:qualifiedAttribution>
-    <ns4:hadPrimarySource rdf:nodeID="source-3"/>
-    <ns4:hadPrimarySource rdf:nodeID="source-15"/>
-    <ns4:hadPrimarySource rdf:nodeID="source-4"/>
-    <ns1:identifier>https://doi.org/10.25832/conventional_power_plants/2020-10-01</ns1:identifier>
-    <ns2:homepage>https://data.open-power-system-data.org/conventional_power_plants/2020-10-01</ns2:homepage>
-    <ns4:hadPrimarySource rdf:nodeID="source-1"/>
-    <ns4:hadPrimarySource rdf:nodeID="source-11"/>
-    <ns4:hadPrimarySource rdf:nodeID="source-7"/>
-    <ns5:contributor rdf:nodeID="contributor-3"/>
     <ns4:hadPrimarySource rdf:nodeID="source-6"/>
-    <ns1:name>opsd-conventional_power_plants</ns1:name>
-    <ns1:issued>2020-10-01</ns1:issued>
-    <ns4:hadPrimarySource rdf:nodeID="source-10"/>
-    <ns5:contributor rdf:nodeID="contributor-2"/>
-    <ns4:hadPrimarySource rdf:nodeID="source-16"/>
-    <ns4:hadPrimarySource rdf:nodeID="source-18"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <ns5:contributor rdf:nodeID="contributor-3"/>
+    <ns4:hadPrimarySource rdf:nodeID="source-8"/>
+    <ns4:hadPrimarySource rdf:nodeID="source-3"/>
+    <ns4:hadPrimarySource rdf:nodeID="source-13"/>
+    <ns1:modified>Updated data to new powerplant lists, bugfixes</ns1:modified>
+    <ns4:hadPrimarySource rdf:nodeID="source-12"/>
+    <ns1:title>Conventional power plants</ns1:title>
+    <ns2:homepage>https://data.open-power-system-data.org/conventional_power_plants/2020-10-01</ns2:homepage>
     <ns4:hadPrimarySource rdf:nodeID="source-14"/>
+    <ns4:qualifiedAttribution>Attribution should be given as follows: Open Power System Data. 2020. Data Package Conventional power plants. Version 2020-10-01. https://doi.org/10.25832/conventional_power_plants/2020-10-01. (Primary data from various sources, for a complete list see URL).</ns4:qualifiedAttribution>
+    <ns5:contributor rdf:nodeID="contributor-2"/>
+    <ns5:contributor rdf:nodeID="contributor-1"/>
+    <ns4:hadPrimarySource rdf:nodeID="source-16"/>
+    <ns4:hadPrimarySource rdf:nodeID="source-0"/>
+    <ns4:hadPrimarySource rdf:nodeID="source-19"/>
+    <ns4:hadPrimarySource rdf:nodeID="source-7"/>
+    <ns1:landingPage>https://github.com/Open-Power-System-Data/conventional_power_plants/blob/2020-10-01/main.ipynb</ns1:landingPage>
+    <ns4:hadPrimarySource rdf:nodeID="source-9"/>
+    <ns5:contributor rdf:nodeID="contributor-0"/>
+    <ns1:name>opsd-conventional_power_plants</ns1:name>
+    <ns4:hadPrimarySource rdf:nodeID="source-18"/>
     <ns4:hadPrimarySource rdf:nodeID="source-2"/>
-    <ns1:description>List of conventional power plants in Germany and European countries</ns1:description>
+    <ns1:dataset rdf:nodeID="dataset-3"/>
     <ns4:hadPrimarySource rdf:nodeID="source-17"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="distribution-3">
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:MediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</ns1:MediaType>
-    <ns1:schema rdf:resource="https://specs.frictionlessdata.io/schemas/table-schema.json"/>
-    <ns1:format>xlsx</ns1:format>
-    <ns1:title>opsd_conventional_power_plants_EU</ns1:title>
-    <ns1:description>List of conventional power plants in Europe</ns1:description>
-    <ns1:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</ns1:byteSize>
-    <ns1:downloadURL rdf:resource="conventional_power_plants_EU.xlsx"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-1">
-    <ns1:name>company</ns1:name>
-    <ns3:table rdf:nodeID="distribution-2"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:title>Company name</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-1">
-    <ns1:title>Power plant name as specified in the BNetzA power plant list</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:name>name_bnetza</ns1:name>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-12">
-    <ns1:title>Precise geographic coordinates - latitude</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-2"/>
-    <ns1:name>lat</ns1:name>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <ns4:hadPrimarySource rdf:nodeID="source-15"/>
+    <ns1:issued>2020-10-01</ns1:issued>
+    <ns1:description>List of conventional power plants in Germany and European countries</ns1:description>
+    <ns1:dataset rdf:nodeID="dataset-0"/>
+    <ns1:identifier>https://doi.org/10.25832/conventional_power_plants/2020-10-01</ns1:identifier>
+    <ns1:dataset rdf:nodeID="dataset-2"/>
+    <ns4:hadPrimarySource rdf:nodeID="source-10"/>
+    <ns4:hadPrimarySource rdf:nodeID="source-1"/>
+    <ns1:dataset rdf:nodeID="dataset-1"/>
+    <ns4:hadPrimarySource rdf:nodeID="source-11"/>
+    <ns4:hadPrimarySource rdf:nodeID="source-4"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="distribution-0">
-    <ns3:headerRowCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns3:headerRowCount>
-    <ns1:MediaType>text/csv</ns1:MediaType>
-    <ns1:description>List of conventional power plants in Germany</ns1:description>
-    <ns3:lineTerminators>\n</ns3:lineTerminators>
     <ns1:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</ns1:byteSize>
+    <ns1:MediaType>text/csv</ns1:MediaType>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <ns3:delimiter>,</ns3:delimiter>
     <ns3:primaryKey>id</ns3:primaryKey>
     <ns1:format>csv</ns1:format>
-    <ns1:downloadURL rdf:resource="conventional_power_plants_DE.csv"/>
-    <ns1:schema rdf:resource="https://specs.frictionlessdata.io/schemas/table-schema.json"/>
-    <ns3:encoding>UTF8</ns3:encoding>
     <ns1:title>opsd_conventional_power_plants_DE</ns1:title>
+    <ns1:description>List of conventional power plants in Germany</ns1:description>
+    <ns1:schema rdf:resource="https://specs.frictionlessdata.io/schemas/table-schema.json"/>
+    <ns1:downloadURL rdf:resource="conventional_power_plants_DE.csv"/>
+    <ns3:lineTerminators>\n</ns3:lineTerminators>
+    <ns3:encoding>UTF8</ns3:encoding>
+    <ns3:headerRowCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns3:headerRowCount>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-32">
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-    <ns1:title>Status of being entitled to a renumeration</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+  <rdf:Description rdf:nodeID="dataset-0--column-11">
     <ns3:table rdf:nodeID="distribution-0"/>
-    <ns1:name>eeg</ns1:name>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-31">
-    <ns1:title>Energy source level 3 according to the documentation</ns1:title>
-    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:name>capacity_gross_uba</ns1:name>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:name>energy_source_level_3</ns1:name>
+    <ns1:title>Gross installed capacity according to UBA data</ns1:title>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="source-17">
-    <ns1:title>Slovenia (SI) (several sources)</ns1:title>
+  <rdf:Description rdf:nodeID="distribution-2">
+    <ns1:MediaType>text/csv</ns1:MediaType>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="source-2">
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:title>Verbund AG hydro power plants (AT)</ns1:title>
-    <ns1:downloadURL rdf:resource="https://www.verbund.com/en-at/about-verbund/power-plants/our-power-plants"/>
+    <ns1:schema rdf:resource="https://specs.frictionlessdata.io/schemas/table-schema.json"/>
+    <ns1:downloadURL rdf:resource="conventional_power_plants_EU.csv"/>
+    <ns3:lineTerminators>\n</ns3:lineTerminators>
+    <ns3:headerRowCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns3:headerRowCount>
+    <ns1:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</ns1:byteSize>
+    <ns1:description>List of conventional power plants in Europe</ns1:description>
+    <ns1:format>csv</ns1:format>
+    <ns1:title>opsd_conventional_power_plants_EU</ns1:title>
+    <ns3:primaryKey>id</ns3:primaryKey>
+    <ns3:encoding>UTF8</ns3:encoding>
+    <ns3:delimiter>,</ns3:delimiter>
   </rdf:Description>
   <rdf:Description rdf:nodeID="dataset-2--column-2">
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns3:table rdf:nodeID="distribution-2"/>
     <ns1:name>street</ns1:name>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
     <ns1:title>Street as specified in national data source</ns1:title>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-2--column-8">
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
     <ns3:table rdf:nodeID="distribution-2"/>
+    <ns1:name>technology</ns1:name>
+    <ns1:title>Power plant technology (e.g., gas turbine, steam turbine)</ns1:title>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-0">
-    <ns1:title>Power plant ID based on the ID provided in the BNetzA-list.</ns1:title>
+  <rdf:Description rdf:nodeID="dataset-0--column-31">
+    <ns1:name>energy_source_level_3</ns1:name>
+    <ns1:title>Energy source level 3 according to the documentation</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
     <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <ns3:table rdf:nodeID="distribution-0"/>
-    <ns1:name>id</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-10">
+    <ns1:title>Net installed capacity based on BNetzA</ns1:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <ns1:name>capacity_net_bnetza</ns1:name>
+    <ns3:table rdf:nodeID="distribution-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-26">
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:title>Proportion between power output and input, self researched values</ns1:title>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:name>efficiency_data</ns1:name>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-30">
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:name>energy_source_level_2</ns1:name>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns1:title>Energy source level 2 according to the documentation</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-12">
+    <ns1:title>TERNA Installed generation capacity (IT)</ns1:title>
+    <ns1:downloadURL rdf:resource="http://www.terna.it/it-it/sistemaelettrico/transparencyreport/generation/installedgenerationcapacity.aspx"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-2--column-19">
+    <ns3:table rdf:nodeID="distribution-2"/>
+    <ns1:title>Own OPSD comments on data entries (e.g., errors, missing data, inconsistencies)</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns1:name>comment</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-2--column-0">
+    <ns1:title>Power plant name as specified in national data sources</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:nodeID="distribution-2"/>
+    <ns1:name>name</ns1:name>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:name>city</ns1:name>
+    <ns1:title>City as specified in the BNetzA power plant list</ns1:title>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-21">
+    <ns1:title>Purpose of the produced power</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:name>type</ns1:name>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-27">
+    <ns1:name>efficiency_source</ns1:name>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:title>Source of efficiency data</ns1:title>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-1">
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:name>name_bnetza</ns1:name>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns1:title>Power plant name as specified in the BNetzA power plant list</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-3">
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:title>Power plant name according to UBA data</ns1:title>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:name>name_uba</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-22">
+    <ns1:name>lat</ns1:name>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <ns1:title>Precise geographic coordinates - latitude</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-4">
+    <ns1:title>Company name</ns1:title>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns1:name>company</ns1:name>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-17">
+    <ns1:title>Year of commissioning (raw data)</ns1:title>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:name>commissioned_original</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-25">
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:name>eic_code_block</ns1:name>
+    <ns1:title>EIC code of block</ns1:title>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="distribution-1">
+    <ns1:downloadURL rdf:resource="conventional_power_plants_DE.xlsx"/>
+    <ns1:MediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</ns1:MediaType>
+    <ns1:description>List of conventional power plants in Germany</ns1:description>
+    <ns1:title>opsd_conventional_power_plants_DE</ns1:title>
+    <ns1:schema rdf:resource="https://specs.frictionlessdata.io/schemas/table-schema.json"/>
+    <ns1:format>xlsx</ns1:format>
+    <ns1:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</ns1:byteSize>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="dataset-2--column-4">
     <ns1:title>City as specified in national data source</ns1:title>
     <ns3:table rdf:nodeID="distribution-2"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
     <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
     <ns1:name>city</ns1:name>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="source-8">
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:title>Denmark (DK) (several sources)</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-20">
-    <ns1:name>status</ns1:name>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:title>Power plant status</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-25">
-    <ns1:name>eic_code_block</ns1:name>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:title>EIC code of block</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-14">
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:name>chp</ns1:name>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns1:title>Status of being able to supply heat</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-37">
-    <ns1:title>Further comments</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:name>comment</ns1:name>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-13">
-    <ns1:name>lon</ns1:name>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-2"/>
-    <ns1:title>Precise geographic coordinates - longitude</ns1:title>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-33">
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns1:name>network_node</ns1:name>
-    <ns1:title>Connection point to the electricity grid based on BNetzA data</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-11">
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-    <ns1:title>Gross installed capacity according to UBA data</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:name>capacity_gross_uba</ns1:name>
-  </rdf:Description>
   <rdf:Description rdf:nodeID="dataset-2--column-9">
-    <ns3:table rdf:nodeID="distribution-2"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
     <ns1:title>Status of being able to supply heat</ns1:title>
     <ns1:name>chp</ns1:name>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="source-15">
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:title>GPI List of generation units (PL)</ns1:title>
-    <ns1:downloadURL rdf:resource="http://gpi.tge.pl/en/wykaz-jednostek"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-22">
-    <ns1:name>lat</ns1:name>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:title>Precise geographic coordinates - latitude</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-3">
-    <ns1:name>postcode</ns1:name>
-    <ns1:title>Postcode as specified in national data sourcee</ns1:title>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     <ns3:table rdf:nodeID="distribution-2"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-17">
+  <rdf:Description rdf:nodeID="dataset-0--column-2">
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:title>Block name as specified in the BNetzA power plant list</ns1:title>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:name>block_bnetza</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-28">
+    <ns1:name>efficiency_estimate</ns1:name>
+    <ns1:title>Estimated proportion between power output and input</ns1:title>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
     <ns3:table rdf:nodeID="distribution-0"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:title>Year of commissioning (raw data)</ns1:title>
-    <ns1:name>commissioned_original</ns1:name>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="distribution-2">
-    <ns1:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</ns1:byteSize>
-    <ns1:format>csv</ns1:format>
-    <ns1:downloadURL rdf:resource="conventional_power_plants_EU.csv"/>
-    <ns1:title>opsd_conventional_power_plants_EU</ns1:title>
-    <ns3:headerRowCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns3:headerRowCount>
-    <ns3:encoding>UTF8</ns3:encoding>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:MediaType>text/csv</ns1:MediaType>
-    <ns3:delimiter>,</ns3:delimiter>
-    <ns3:lineTerminators>\n</ns3:lineTerminators>
-    <ns1:schema rdf:resource="https://specs.frictionlessdata.io/schemas/table-schema.json"/>
-    <ns3:primaryKey>id</ns3:primaryKey>
-    <ns1:description>List of conventional power plants in Europe</ns1:description>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-9">
+  <rdf:Description rdf:nodeID="dataset-0--column-32">
     <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:name>country</ns1:name>
+    <ns1:title>Status of being entitled to a renumeration</ns1:title>
+    <ns1:name>eeg</ns1:name>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     <ns3:table rdf:nodeID="distribution-0"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:title>Two-letter ISO code</ns1:title>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-3">
-    <ns1:title>Power plant name according to UBA data</ns1:title>
-    <ns1:name>name_uba</ns1:name>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdf:Description rdf:nodeID="dataset-0--column-16">
     <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:name>commissioned</ns1:name>
+    <ns1:title>Year of commissioning formatted as integer, using data from BNetzA and UBA</ns1:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <ns1:distribution rdf:nodeID="distribution-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-3">
+    <ns1:distribution rdf:nodeID="distribution-3"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="source-1">
     <ns1:downloadURL rdf:resource="http://www.umweltbundesamt.de/dokument/datenbank-kraftwerke-in-deutschland"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <ns1:title>Umweltbundesamt Datenbank Kraftwerke in Deutschland (DE)</ns1:title>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-19">
-    <ns1:name>comment</ns1:name>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-2"/>
-    <ns1:title>Own OPSD comments on data entries (e.g., errors, missing data, inconsistencies)</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="contributor-0">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <ns2:workInfoHomepage rdf:resource="https://www.wip.tu-berlin.de/"/>
-    <ns2:mbox rdf:resource="jew@wip.tu-berlin.de"/>
-    <ns2:name>Jens Weibezahn</ns2:name>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-12">
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns1:title>Used fuel or energy source</ns1:title>
-    <ns1:name>energy_source</ns1:name>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-19">
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-    <ns1:name>shutdown</ns1:name>
-    <ns1:title>Year of decommissioning based on BNetzA data</ns1:title>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-  </rdf:Description>
   <rdf:Description rdf:nodeID="dataset-2--column-15">
-    <ns1:name>energy_source_level_1</ns1:name>
-    <ns3:table rdf:nodeID="distribution-2"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:name>energy_source_level_1</ns1:name>
     <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <ns1:title>Energy source level 1 according to the documentation</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-21">
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:name>type</ns1:name>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:title>Purpose of the produced power</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="distribution-1">
-    <ns1:schema rdf:resource="https://specs.frictionlessdata.io/schemas/table-schema.json"/>
-    <ns1:downloadURL rdf:resource="conventional_power_plants_DE.xlsx"/>
-    <ns1:format>xlsx</ns1:format>
-    <ns1:MediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</ns1:MediaType>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</ns1:byteSize>
-    <ns1:description>List of conventional power plants in Germany</ns1:description>
-    <ns1:title>opsd_conventional_power_plants_DE</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-36">
-    <ns1:name>merge_comment</ns1:name>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:title>Comment on BNetzA - UBA merge</ns1:title>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-7">
-    <ns1:name>energy_source</ns1:name>
-    <ns1:title>Input energy source  (e.g., hard coal, lignite, nuclear)</ns1:title>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <ns3:table rdf:nodeID="distribution-2"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="source-5">
-    <ns1:title>BFE Statistik der Wasserkraftanlagen der Schweiz (CH)</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:downloadURL rdf:resource="https://www.bfe.admin.ch/bfe/en/home/supply/renewable-energy/hydropower.html"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="dataset-0--column-34">
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:title>Grid or transformation level of the network node based on BNetzA data</ns1:title>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <ns1:name>voltage</ns1:name>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-15">
-    <ns1:name>chp_capacity_uba</ns1:name>
+    <ns1:title>Grid or transformation level of the network node based on BNetzA data</ns1:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
     <ns3:table rdf:nodeID="distribution-0"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-    <ns1:title>Heat capacity according to UBA data</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-27">
-    <ns1:title>Source of efficiency data</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:name>efficiency_source</ns1:name>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-10">
-    <ns3:table rdf:nodeID="distribution-2"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:name>commissioned</ns1:name>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-    <ns1:title>Year of commissioning formatted as integer, using data from BNetzA and UBA</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0">
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <ns1:distribution rdf:nodeID="distribution-0"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-6">
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns1:title>Postcode as specified in the BNetzA power plant list</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:name>postcode</ns1:name>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-6">
-    <ns1:name>capacity</ns1:name>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-2"/>
-    <ns1:title>Installed generation capacity in MW</ns1:title>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-5">
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:title>Street as specified in the BNetzA power plant list</ns1:title>
-    <ns1:name>street</ns1:name>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-13">
-    <ns1:name>technology</ns1:name>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:title>Power plant technology or sort</ns1:title>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns3:table rdf:nodeID="distribution-0"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-35">
-    <ns1:title>Network operator of the grid or transformation level based on BNetzA data</ns1:title>
-    <ns1:name>network_operator</ns1:name>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns3:table rdf:nodeID="distribution-0"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-8">
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:title>State as specified in the BNetzA power plant list</ns1:title>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns1:name>state</ns1:name>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-18">
-    <ns1:name>additional_info</ns1:name>
-    <ns1:title>Additional information on power plants as provided in national data source</ns1:title>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns3:table rdf:nodeID="distribution-2"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="dataset-2--column-16">
     <ns1:name>energy_source_level_2</ns1:name>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
     <ns1:title>Energy source level 2 according to the documentation</ns1:title>
     <ns3:table rdf:nodeID="distribution-2"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
     <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-4">
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:title>Company name</ns1:title>
-    <ns1:name>company</ns1:name>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-17">
-    <ns1:title>Energy source level 3 according to the documentation</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-2"/>
-    <ns1:name>energy_source_level_3</ns1:name>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-7">
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:name>city</ns1:name>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns1:title>City as specified in the BNetzA power plant list</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="source-9">
+  <rdf:Description rdf:nodeID="distribution-3">
+    <ns1:format>xlsx</ns1:format>
+    <ns1:schema rdf:resource="https://specs.frictionlessdata.io/schemas/table-schema.json"/>
+    <ns1:title>opsd_conventional_power_plants_EU</ns1:title>
+    <ns1:description>List of conventional power plants in Europe</ns1:description>
+    <ns1:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</ns1:byteSize>
+    <ns1:downloadURL rdf:resource="conventional_power_plants_EU.xlsx"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:downloadURL rdf:resource="https://sede.minetur.gob.es/en-US/datosabiertos/catalogo/registro-productores-electrica"/>
-    <ns1:title>SEDE Productores (ES)</ns1:title>
+    <ns1:MediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</ns1:MediaType>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-20">
+  <rdf:Description rdf:nodeID="dataset-0--column-15">
     <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-2"/>
-    <ns1:name>source</ns1:name>
-    <ns1:title>Source of information</ns1:title>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-23">
-    <ns1:name>lon</ns1:name>
+    <ns1:title>Heat capacity according to UBA data</ns1:title>
+    <ns1:name>chp_capacity_uba</ns1:name>
     <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-    <ns1:title>Precise geographic coordinates - longitude</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
     <ns3:table rdf:nodeID="distribution-0"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-24">
-    <ns1:title>EIC code of plant</ns1:title>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdf:Description rdf:nodeID="dataset-0--column-5">
     <ns3:table rdf:nodeID="distribution-0"/>
-    <ns1:name>eic_code_plant</ns1:name>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-0">
-    <ns3:table rdf:nodeID="distribution-2"/>
+    <ns1:name>street</ns1:name>
     <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
     <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:title>Power plant name as specified in national data sources</ns1:title>
-    <ns1:name>name</ns1:name>
+    <ns1:title>Street as specified in the BNetzA power plant list</ns1:title>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="contributor-2">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <ns2:name>Clemens Gerbaulet</ns2:name>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="source-11">
-    <ns1:title>RTE List of production units with more than 100MW (FR)</ns1:title>
-    <ns1:downloadURL rdf:resource="https://www.services-rte.com/en/view-data-published-by-rte/production-installed-capacity.html"/>
+  <rdf:Description rdf:nodeID="source-17">
+    <ns1:title>Slovenia (SI) (several sources)</ns1:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="source-3">
+  <rdf:Description rdf:nodeID="source-6">
+    <ns1:downloadURL rdf:resource="https://www.bfe.admin.ch/bfe/en/home/supply/statistics-and-geodata/geoinformation/geodata/nuclear-energy/nuclear-power-plants.html"/>
+    <ns1:title>BFE Nuclear Energy (CH)</ns1:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:title>Austria (AT) (several sources)</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-11">
-    <ns1:name>type</ns1:name>
-    <ns1:title>Purpose of the produced power (e.g. CHP or IPP)</ns1:title>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-2"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-29">
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns1:name>energy_source_level_1</ns1:name>
-    <ns1:title>Energy source level 1 according to the documentation</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-2">
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:name>block_bnetza</ns1:name>
-    <ns1:title>Block name as specified in the BNetzA power plant list</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-0"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2--column-8">
-    <ns3:table rdf:nodeID="distribution-2"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <ns1:title>Power plant technology (e.g., gas turbine, steam turbine)</ns1:title>
-    <ns1:name>technology</ns1:name>
   </rdf:Description>
   <rdf:Description rdf:nodeID="source-13">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <ns1:downloadURL rdf:resource="http://www.tennet.org/english/operational_management/export_data.aspx"/>
     <ns1:title>TenneT Available capacity (NL)</ns1:title>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="source-19">
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:title>Statistical office Power stations in the United Kingdom (Dukes 5.11) (UK)</ns1:title>
-    <ns1:downloadURL rdf:resource="https://www.gov.uk/government/statistics/electricity-chapter-5-digest-of-united-kingdom-energy-statistics-dukes"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-1">
-    <ns1:distribution rdf:nodeID="distribution-1"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="source-14">
-    <ns1:title>NVE Power Generation (NO)</ns1:title>
-    <ns1:downloadURL rdf:resource="https://www.nve.no/energiforsyning/kraftproduksjon/"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-26">
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-0"/>
+  <rdf:Description rdf:nodeID="dataset-2--column-10">
     <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-    <ns1:name>efficiency_data</ns1:name>
-    <ns1:title>Proportion between power output and input, self researched values</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-16">
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-    <ns1:title>Year of commissioning formatted as integer, using data from BNetzA and UBA</ns1:title>
-    <ns3:table rdf:nodeID="distribution-0"/>
     <ns1:name>commissioned</ns1:name>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="source-12">
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:title>TERNA Installed generation capacity (IT)</ns1:title>
-    <ns1:downloadURL rdf:resource="http://www.terna.it/it-it/sistemaelettrico/transparencyreport/generation/installedgenerationcapacity.aspx"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-18">
-    <ns1:name>retrofit</ns1:name>
-    <ns3:table rdf:nodeID="distribution-0"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-    <ns1:title>Year of modernization according to UBA data</ns1:title>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="source-10">
-    <ns1:title>Energy authority Power plant register (FI)</ns1:title>
-    <ns1:downloadURL rdf:resource="https://energiavirasto.fi/toimitusvarmuus"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="source-7">
-    <ns1:downloadURL rdf:resource="https://www.ceps.cz/cs/priprava-provozu"/>
-    <ns1:title>CEPS Available capacity (CZ)</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="source-0">
-    <ns1:title>BNetzA Kraftwerksliste (DE)</ns1:title>
-    <ns1:downloadURL rdf:resource="http://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/Versorgungssicherheit/Erzeugungskapazitaeten/Kraftwerksliste/kraftwerksliste-node.html"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-10">
-    <ns1:title>Net installed capacity based on BNetzA</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns1:name>capacity_net_bnetza</ns1:name>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-30">
-    <ns3:table rdf:nodeID="distribution-0"/>
-    <ns1:name>energy_source_level_2</ns1:name>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns1:title>Energy source level 2 according to the documentation</ns1:title>
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns3:table rdf:nodeID="distribution-2"/>
+    <ns1:title>Year of commissioning formatted as integer, using data from BNetzA and UBA</ns1:title>
   </rdf:Description>
   <rdf:Description rdf:nodeID="contributor-3">
     <ns2:name>Friedrich Kunz</ns2:name>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="source-6">
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:title>BFE Nuclear Energy (CH)</ns1:title>
-    <ns1:downloadURL rdf:resource="https://www.bfe.admin.ch/bfe/en/home/supply/statistics-and-geodata/geoinformation/geodata/nuclear-energy/nuclear-power-plants.html"/>
+  <rdf:Description rdf:nodeID="dataset-2--column-3">
+    <ns1:name>postcode</ns1:name>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:nodeID="distribution-2"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns1:title>Postcode as specified in national data sourcee</ns1:title>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-2">
-    <ns1:distribution rdf:nodeID="distribution-2"/>
+  <rdf:Description rdf:nodeID="dataset-0">
+    <ns1:distribution rdf:nodeID="distribution-0"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="source-18">
-    <ns1:downloadURL rdf:resource="https://www.seas.sk/thermal-power-plants"/>
+  <rdf:Description rdf:nodeID="dataset-0--column-23">
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:name>lon</ns1:name>
+    <ns1:title>Precise geographic coordinates - longitude</ns1:title>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-18">
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:title>Year of modernization according to UBA data</ns1:title>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:name>retrofit</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-5">
+    <ns1:title>BFE Statistik der Wasserkraftanlagen der Schweiz (CH)</ns1:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:title>SEAS Power plants (SK)</ns1:title>
+    <ns1:downloadURL rdf:resource="https://www.bfe.admin.ch/bfe/en/home/supply/renewable-energy/hydropower.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <ns1:distribution rdf:nodeID="distribution-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="contributor-0">
+    <ns2:mbox rdf:resource="jew@wip.tu-berlin.de"/>
+    <ns2:name>Jens Weibezahn</ns2:name>
+    <ns2:workInfoHomepage rdf:resource="https://www.wip.tu-berlin.de/"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-2--column-1">
+    <ns1:title>Company name</ns1:title>
+    <ns3:table rdf:nodeID="distribution-2"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns1:name>company</ns1:name>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-33">
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:title>Connection point to the electricity grid based on BNetzA data</ns1:title>
+    <ns1:name>network_node</ns1:name>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-2--column-20">
+    <ns3:table rdf:nodeID="distribution-2"/>
+    <ns1:title>Source of information</ns1:title>
+    <ns1:name>source</ns1:name>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-0">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <ns1:downloadURL rdf:resource="http://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/Versorgungssicherheit/Erzeugungskapazitaeten/Kraftwerksliste/kraftwerksliste-node.html"/>
+    <ns1:title>BNetzA Kraftwerksliste (DE)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-2--column-6">
+    <ns3:table rdf:nodeID="distribution-2"/>
+    <ns1:title>Installed generation capacity in MW</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:name>capacity</ns1:name>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-24">
+    <ns1:name>eic_code_plant</ns1:name>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns1:title>EIC code of plant</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-6">
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:name>postcode</ns1:name>
+    <ns1:title>Postcode as specified in the BNetzA power plant list</ns1:title>
   </rdf:Description>
   <rdf:Description rdf:nodeID="dataset-2--column-14">
-    <ns1:title>EIC code</ns1:title>
-    <ns3:table rdf:nodeID="distribution-2"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
     <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <ns1:name>eic_code</ns1:name>
+    <ns1:title>EIC code</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:nodeID="distribution-2"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="source-4">
+  <rdf:Description rdf:nodeID="dataset-2--column-12">
+    <ns3:table rdf:nodeID="distribution-2"/>
+    <ns1:name>lat</ns1:name>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:title>Precise geographic coordinates - latitude</ns1:title>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-37">
+    <ns1:title>Further comments</ns1:title>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:name>comment</ns1:name>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-19">
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <ns1:name>shutdown</ns1:name>
+    <ns1:title>Year of decommissioning based on BNetzA data</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:nodeID="distribution-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-29">
+    <ns1:name>energy_source_level_1</ns1:name>
+    <ns1:title>Energy source level 1 according to the documentation</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns3:table rdf:nodeID="distribution-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-2--column-13">
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <ns3:table rdf:nodeID="distribution-2"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:title>Precise geographic coordinates - longitude</ns1:title>
+    <ns1:name>lon</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-2--column-11">
+    <ns3:table rdf:nodeID="distribution-2"/>
+    <ns1:title>Purpose of the produced power (e.g. CHP or IPP)</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:name>type</ns1:name>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-8">
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:title>State as specified in the BNetzA power plant list</ns1:title>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns1:name>state</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-35">
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:title>Network operator of the grid or transformation level based on BNetzA data</ns1:title>
+    <ns1:name>network_operator</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-3">
+    <ns1:title>Austria (AT) (several sources)</ns1:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <ns1:title>ELIA Generation facilities (BE)</ns1:title>
-    <ns1:downloadURL rdf:resource="http://www.elia.be/en/grid-data/power-generation/generating-facilities"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-2--column-18">
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:name>additional_info</ns1:name>
+    <ns1:title>Additional information on power plants as provided in national data source</ns1:title>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns3:table rdf:nodeID="distribution-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-14">
+    <ns1:downloadURL rdf:resource="https://www.nve.no/energiforsyning/kraftproduksjon/"/>
+    <ns1:title>NVE Power Generation (NO)</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-2">
+    <ns1:title>Verbund AG hydro power plants (AT)</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <ns1:downloadURL rdf:resource="https://www.verbund.com/en-at/about-verbund/power-plants/our-power-plants"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-2--column-5">
+    <ns1:name>country</ns1:name>
+    <ns1:title>Two-letter ISO code</ns1:title>
+    <ns3:table rdf:nodeID="distribution-2"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-9">
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns1:title>Two-letter ISO code</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:name>country</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-2--column-7">
+    <ns1:title>Input energy source  (e.g., hard coal, lignite, nuclear)</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns3:table rdf:nodeID="distribution-2"/>
+    <ns1:name>energy_source</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-13">
+    <ns1:title>Power plant technology or sort</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:name>technology</ns1:name>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns3:table rdf:nodeID="distribution-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-20">
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:name>status</ns1:name>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns1:title>Power plant status</ns1:title>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-7">
+    <ns1:downloadURL rdf:resource="https://www.ceps.cz/cs/priprava-provozu"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <ns1:title>CEPS Available capacity (CZ)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-0">
+    <ns1:name>id</ns1:name>
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:title>Power plant ID based on the ID provided in the BNetzA-list.</ns1:title>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-12">
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <ns1:name>energy_source</ns1:name>
+    <ns1:title>Used fuel or energy source</ns1:title>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-8">
+    <ns1:title>Denmark (DK) (several sources)</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-0--column-36">
+    <ns3:table rdf:nodeID="distribution-0"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns1:title>Comment on BNetzA - UBA merge</ns1:title>
+    <ns1:name>merge_comment</ns1:name>
   </rdf:Description>
   <rdf:Description rdf:nodeID="contributor-1">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
@@ -627,19 +597,49 @@
     <ns2:name>Richard Weinhold</ns2:name>
     <ns2:mbox rdf:resource="riw@wip.tu-berlin.de"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-0--column-28">
-    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-    <ns1:name>efficiency_estimate</ns1:name>
-    <ns1:title>Estimated proportion between power output and input</ns1:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
-    <ns3:table rdf:nodeID="distribution-0"/>
+  <rdf:Description rdf:nodeID="source-18">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <ns1:downloadURL rdf:resource="https://www.seas.sk/thermal-power-plants"/>
+    <ns1:title>SEAS Power plants (SK)</ns1:title>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="dataset-3">
-    <ns1:distribution rdf:nodeID="distribution-3"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+  <rdf:Description rdf:nodeID="contributor-2">
+    <ns2:name>Clemens Gerbaulet</ns2:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-15">
+    <ns1:downloadURL rdf:resource="http://gpi.tge.pl/en/wykaz-jednostek"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <ns1:title>GPI List of generation units (PL)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset-2--column-17">
+    <ns3:table rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <ns1:name>energy_source_level_3</ns1:name>
+    <rdf:type rdf:resource="http://www.w3.org/ns/csvw#column"/>
+    <ns3:table rdf:nodeID="distribution-2"/>
+    <ns1:title>Energy source level 3 according to the documentation</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-19">
+    <ns1:title>Statistical office Power stations in the United Kingdom (Dukes 5.11) (UK)</ns1:title>
+    <ns1:downloadURL rdf:resource="https://www.gov.uk/government/statistics/electricity-chapter-5-digest-of-united-kingdom-energy-statistics-dukes"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="source-16">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <ns1:title>Nordpool Power plant units (SE) (link inactive)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-11">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <ns1:downloadURL rdf:resource="https://www.services-rte.com/en/view-data-published-by-rte/production-installed-capacity.html"/>
+    <ns1:title>RTE List of production units with more than 100MW (FR)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-10">
+    <ns1:title>Energy authority Power plant register (FI)</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <ns1:downloadURL rdf:resource="https://energiavirasto.fi/toimitusvarmuus"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-9">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <ns1:title>SEDE Productores (ES)</ns1:title>
+    <ns1:downloadURL rdf:resource="https://sede.minetur.gob.es/en-US/datosabiertos/catalogo/registro-productores-electrica"/>
   </rdf:Description>
 </rdf:RDF>
