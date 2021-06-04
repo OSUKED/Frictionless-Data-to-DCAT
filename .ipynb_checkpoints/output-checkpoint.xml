@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.w3.org/ns/dcat#"
+   xmlns:ns2="http://xmlns.com/foaf/0.1/"
+   xmlns:ns3="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="catalog">
+    <ns3:hadPrimarySource rdf:nodeID="source-9"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-15"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-16"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-10"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-0"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-8"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-17"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-12"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-1"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-3"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-18"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-5"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-11"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-14"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-6"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-2"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-19"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-13"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-7"/>
+    <ns3:hadPrimarySource rdf:nodeID="source-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="contributor-3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <ns2:name>Friedrich Kunz</ns2:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-10">
+    <ns1:title>Energy authority Power plant register (FI)</ns1:title>
+    <ns1:downloadURL rdf:resource="https://energiavirasto.fi/toimitusvarmuus"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-7">
+    <ns1:downloadURL rdf:resource="https://www.ceps.cz/cs/priprava-provozu"/>
+    <ns1:title>CEPS Available capacity (CZ)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-1">
+    <ns1:downloadURL rdf:resource="http://www.umweltbundesamt.de/dokument/datenbank-kraftwerke-in-deutschland"/>
+    <ns1:title>Umweltbundesamt Datenbank Kraftwerke in Deutschland (DE)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-15">
+    <ns1:downloadURL rdf:resource="http://gpi.tge.pl/en/wykaz-jednostek"/>
+    <ns1:title>GPI List of generation units (PL)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-5">
+    <ns1:downloadURL rdf:resource="https://www.bfe.admin.ch/bfe/en/home/supply/renewable-energy/hydropower.html"/>
+    <ns1:title>BFE Statistik der Wasserkraftanlagen der Schweiz (CH)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-8">
+    <ns1:title>Denmark (DK) (several sources)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="contributor-1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <ns2:workInfoHomepage rdf:resource="https://www.wip.tu-berlin.de/"/>
+    <ns2:name>Richard Weinhold</ns2:name>
+    <ns2:mbox rdf:resource="riw@wip.tu-berlin.de"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="contributor-2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <ns2:name>Clemens Gerbaulet</ns2:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-3">
+    <ns1:title>Austria (AT) (several sources)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-4">
+    <ns1:title>ELIA Generation facilities (BE)</ns1:title>
+    <ns1:downloadURL rdf:resource="http://www.elia.be/en/grid-data/power-generation/generating-facilities"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-19">
+    <ns1:title>Statistical office Power stations in the United Kingdom (Dukes 5.11) (UK)</ns1:title>
+    <ns1:downloadURL rdf:resource="https://www.gov.uk/government/statistics/electricity-chapter-5-digest-of-united-kingdom-energy-statistics-dukes"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-13">
+    <ns1:downloadURL rdf:resource="http://www.tennet.org/english/operational_management/export_data.aspx"/>
+    <ns1:title>TenneT Available capacity (NL)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-12">
+    <ns1:title>TERNA Installed generation capacity (IT)</ns1:title>
+    <ns1:downloadURL rdf:resource="http://www.terna.it/it-it/sistemaelettrico/transparencyreport/generation/installedgenerationcapacity.aspx"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-18">
+    <ns1:title>SEAS Power plants (SK)</ns1:title>
+    <ns1:downloadURL rdf:resource="https://www.seas.sk/thermal-power-plants"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-14">
+    <ns1:title>NVE Power Generation (NO)</ns1:title>
+    <ns1:downloadURL rdf:resource="https://www.nve.no/energiforsyning/kraftproduksjon/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="contributor-0">
+    <ns2:mbox rdf:resource="jew@wip.tu-berlin.de"/>
+    <ns2:name>Jens Weibezahn</ns2:name>
+    <ns2:workInfoHomepage rdf:resource="https://www.wip.tu-berlin.de/"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-16">
+    <ns1:title>Nordpool Power plant units (SE) (link inactive)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-0">
+    <ns1:title>BNetzA Kraftwerksliste (DE)</ns1:title>
+    <ns1:downloadURL rdf:resource="http://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/Versorgungssicherheit/Erzeugungskapazitaeten/Kraftwerksliste/kraftwerksliste-node.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-6">
+    <ns1:downloadURL rdf:resource="https://www.bfe.admin.ch/bfe/en/home/supply/statistics-and-geodata/geoinformation/geodata/nuclear-energy/nuclear-power-plants.html"/>
+    <ns1:title>BFE Nuclear Energy (CH)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-2">
+    <ns1:downloadURL rdf:resource="https://www.verbund.com/en-at/about-verbund/power-plants/our-power-plants"/>
+    <ns1:title>Verbund AG hydro power plants (AT)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-9">
+    <ns1:downloadURL rdf:resource="https://sede.minetur.gob.es/en-US/datosabiertos/catalogo/registro-productores-electrica"/>
+    <ns1:title>SEDE Productores (ES)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-17">
+    <ns1:title>Slovenia (SI) (several sources)</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="source-11">
+    <ns1:title>RTE List of production units with more than 100MW (FR)</ns1:title>
+    <ns1:downloadURL rdf:resource="https://www.services-rte.com/en/view-data-published-by-rte/production-installed-capacity.html"/>
+  </rdf:Description>
+</rdf:RDF>
